@@ -1,0 +1,35 @@
+/* Satsuma */
+.satsuma-chips .satsuma-chip { padding: 4px 14px; }
+.satsuma-chips button.satsuma-chip:checked { background-color: #ff5a00; color: white; }
+.satsuma-key {
+  padding: 0 5px;
+  border-radius: 4px;
+  background-color: alpha(currentColor, 0.12);
+  font-feature-settings: "tnum";
+}
+.satsuma-idle image { -gtk-icon-size: 112px; }
+.satsuma-canvas {
+  background-color: alpha(black, 0.06);
+  border-radius: 12px;
+  margin: 8px;
+}
+.satsuma-preview { margin: 12px; }
+
+/* Hotkey overlay */
+satsuma-overlay {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+}
+satsuma-overlay .satsuma-chips { background-color: alpha(@window_bg_color, 0.92); border-radius: 9px; }
+satsuma-overlay .satsuma-chips button.satsuma-chip:not(:checked) { color: @window_fg_color; }
+.satsuma-overlay-title, .satsuma-overlay-hint {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background-color: alpha(@window_bg_color, 0.92);
+  color: @window_fg_color;
+}
+.satsuma-overlay-title { font-weight: bold; margin: 0 40px; }
+.satsuma-overlay-hint { font-size: 0.9em; margin: 0 20px; }

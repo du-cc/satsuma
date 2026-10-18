@@ -1,0 +1,7 @@
+{
+  "uuid": "satsuma-wheel@satsuma.github.io",
+  "name": "Satsuma Wheel",
+  "description": "Opens Satsuma's file-conversion wheel at the mouse pointer and gives it keyboard focus.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://github.com/"
+}

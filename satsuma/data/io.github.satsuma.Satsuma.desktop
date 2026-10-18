@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Name=Satsuma
+GenericName=File Converter
+Comment=Convert, compress and edit files from a wheel at your pointer
+Exec=satsuma %F
+Icon=io.github.satsuma.Satsuma
+Terminal=false
+Categories=Utility;GTK;
+Keywords=convert;converter;compress;pdf;mp3;mp4;heic;webp;image;video;audio;
+StartupNotify=true
+MimeType=image/jpeg;image/png;image/webp;image/heif;image/heic;image/avif;image/tiff;image/bmp;image/svg+xml;image/gif;audio/mpeg;audio/mp4;audio/x-wav;audio/flac;audio/ogg;audio/opus;audio/x-aiff;audio/x-ms-wma;video/mp4;video/quicktime;video/x-matroska;video/webm;video/x-msvideo;video/x-ms-wmv;application/pdf;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.oasis.opendocument.text;application/rtf;text/markdown;text/html;text/plain;application/epub+zip;application/vnd.ms-powerpoint;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.oasis.opendocument.presentation;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.ms-excel;application/vnd.oasis.opendocument.spreadsheet;text/csv;text/tab-separated-values;application/x-subrip;text/vtt;application/zip;application/x-tar;application/gzip;application/x-compressed-tar;application/vnd.rar;
+Actions=new-window;shelf;
+
+[Desktop Action new-window]
+Name=New Drop Zone
+Exec=satsuma --window
+
+[Desktop Action shelf]
+Name=Show Shelf
+Exec=satsuma --shelf
