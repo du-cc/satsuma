@@ -7,6 +7,8 @@
 A Tangerine-style file converter for GNOME. Select files in **Files**,
 press **F4**, and a wheel pops up over the screen at your pointer:
 
+One of [GNOME QoL](https://github.com/du-cc/GNOME-QoL) collections.
+
 ## Functions
 
 | Key   | Wheel       | What's on it                                                                                                                                                                                                                                                 |
